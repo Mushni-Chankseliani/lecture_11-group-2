@@ -1,0 +1,29 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+
+    .left-block {
+        max-width: 550px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .title {
+        text-align: center;
+        max-width: 100%;
+        font-size: 32px;
+    }
+
+    .form {
+        flex-direction: column;
+    }
+
+    .left-block {
+        margin-bottom: 20px;
+    }
+
+    .right-block {
+        max-width: 550px;
+    }
+}
